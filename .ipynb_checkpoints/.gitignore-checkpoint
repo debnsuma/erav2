@@ -2,6 +2,4 @@ data/**
 pytorch-tutorial/
 pytorch-tutorial/**
 PyTorchStepByStep/
-PyTorchStepByStep/** 
-s5/data/
-s5/data/**
+PyTorchStepByStep/** */
