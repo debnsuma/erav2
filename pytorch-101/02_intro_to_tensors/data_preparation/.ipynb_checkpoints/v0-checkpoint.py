@@ -1,4 +1,4 @@
-
+import torch
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
 # Our data was in Numpy arrays, but we need to transform them
