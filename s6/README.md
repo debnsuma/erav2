@@ -36,6 +36,4 @@ With a careful balance of feature learning, strategic reduction, and learning ma
 
 **Dive into our notebook** for a detailed journey through the architecture, strategy, and code that made this achievement possible. Join us in exploring the nuanced art of CNN optimization, where less truly can be more.
 
----
-
-This format introduces a more dynamic and visually appealing presentation, enticing readers to engage deeply with the content of your GitHub repository.
+![Session 6 - Backpropagation and Advanced Architectures](S6.ipynb)
