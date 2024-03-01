@@ -40,7 +40,8 @@ With a careful balance of feature learning, strategic reduction, and learning ma
 - Model `accuracy` within 20 epochs 
 
 ![](img2.png)
----
+
+# Code 
 
 **Dive into our notebook** for a detailed journey through the architecture, strategy, and code that made this achievement possible. Join us in exploring the nuanced art of CNN optimization, where less truly can be more.
 
