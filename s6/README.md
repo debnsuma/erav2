@@ -32,8 +32,16 @@ As we navigate through learning, we employ BatchNormalization to manage informat
 
 With a careful balance of feature learning, strategic reduction, and learning management, we achieve a triumphant **99.40% accuracy with about 8K parameters**, a testament to the efficiency and effectiveness of our approach.
 
+📊 **Visual Insights:**
+- Number of `parameters` 
+
+![](img1.png)
+
+- Model `accuracy` within 20 epochs 
+
+![](img2.png)
 ---
 
 **Dive into our notebook** for a detailed journey through the architecture, strategy, and code that made this achievement possible. Join us in exploring the nuanced art of CNN optimization, where less truly can be more.
 
-[📓 Session 6 - Backpropagation and Advanced Architectures](S6.ipynb)
+📓 Session 6 - Backpropagation and Advanced Architectures](S6.ipynb)
