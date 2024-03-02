@@ -1,5 +1,39 @@
 # Session 6 - Backpropagation and Advanced Architectures 🚀
+## Part 1: Backpropagation Analysis with Varying Learning Rates
 
+This repository contains detailed analysis of backpropagation in neural networks with a focus on the impact of different learning rates on the loss function as discussed in out `Sesstion 6`. The analysis is documented through a comprehensive Excel sheet and a series of visual charts, each corresponding to a specific learning rate.
+
+### Excel Data
+
+[`BackPropagation.xlsx`](BackPropagation.xlsx) contains detailed calculations and data points used to analyze the loss function across different learning rates.
+
+### Loss Function Visualizations
+
+The charts below showcase the loss function's behavior with varying learning rates during the training process of a neural network and we can see that loss function reduces as we increase the learning rate, whhich shows its learning and converging fast.
+
+#### Learning Rate: 0.1
+![Learning Rate 0.1](ll_01.png)
+
+#### Learning Rate: 0.2
+![Learning Rate 0.2](ll_02.png)
+
+#### Learning Rate: 0.5
+![Learning Rate 0.5](ll_05.png)
+
+#### Learning Rate: 0.8
+![Learning Rate 0.8](ll_08.png)
+
+#### Learning Rate: 1.0
+![Learning Rate 1.0](ll_1.png)
+
+#### Learning Rate: 2.0
+![Learning Rate 2.0](ll_2.png)
+
+To view the analysis:
+1. Download [`BackPropagation.xlsx`](BackPropagation.xlsx)  to see the raw data and calculations.
+2. View the loss function charts above to understand how different learning rates affect the training process.
+
+## Part 2 
 Welcome to our exploration into the optimization of Convolutional Neural Network (CNN) architectures! This journey isn't about wielding the mightiest hammer but about the art of precision in tackling a classic digit classification challenge with the MNIST dataset.
 
 🔍 **Understanding the Essence:**
