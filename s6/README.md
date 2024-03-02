@@ -1,7 +1,28 @@
 # Session 6 - Backpropagation and Advanced Architectures 🚀
 ## Part 1: Backpropagation Analysis with Varying Learning Rates
 
-This repository contains detailed analysis of backpropagation in neural networks with a focus on the impact of different learning rates on the loss function as discussed in our `Sesstion 6`. The analysis is documented through a comprehensive Excel sheet and a series of visual charts, each corresponding to a specific learning rate.
+This repository contains detailed analysis of backpropagation in neural networks with a focus on the impact of different learning rates on the loss function as discussed in our `Session 6`. The analysis is documented through a comprehensive Excel sheet and a series of visual charts, each corresponding to a specific learning rate.
+
+📝 **Backpropagation Breakdown:**
+
+The provided diagram illustrates the backpropagation process used to adjust weights in a simple neural network. The network consists of input layers (i1, i2), hidden layers (h1, h2), and output layers (o1, o2). Here's a step-by-step explanation of the calculations:
+
+- **Forward Pass:**
+  - Each neuron in the hidden layer calculates a weighted sum of its inputs and applies an activation function (sigmoid in this case).
+  - The output neurons repeat this process, yielding the final predictions (a_o1, a_o2).
+
+- **Loss Computation:**
+  - The error for each output neuron is calculated using a loss function (squared error in the diagram).
+  - The total error (E_Total) is the sum of individual errors from each output neuron.
+
+- **Backward Pass:**
+  - The gradient of the total error with respect to each weight is calculated using the chain rule, moving backward from the output layer to the input layer.
+  - This involves computing partial derivatives at each neuron, which indicates how much the error would change with respect to a small change in each weight.
+
+- **Weight Update:**
+  - The computed gradients are used to update the weights in the opposite direction of the gradient (gradient descent) by a small step, scaled by the learning rate.
+
+This backpropagation process is critical for training neural networks, allowing them to learn from their errors and improve predictions over time.
 
 ### Excel Data
 
