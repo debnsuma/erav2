@@ -1,7 +1,7 @@
 # Session 6 - Backpropagation and Advanced Architectures 🚀
 ## Part 1: Backpropagation Analysis with Varying Learning Rates
 
-This repository contains detailed analysis of backpropagation in neural networks with a focus on the impact of different learning rates on the loss function as discussed in out `Sesstion 6`. The analysis is documented through a comprehensive Excel sheet and a series of visual charts, each corresponding to a specific learning rate.
+This repository contains detailed analysis of backpropagation in neural networks with a focus on the impact of different learning rates on the loss function as discussed in our `Sesstion 6`. The analysis is documented through a comprehensive Excel sheet and a series of visual charts, each corresponding to a specific learning rate.
 
 ### Excel Data
 
